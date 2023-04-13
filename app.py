@@ -8,7 +8,7 @@ import plotly.graph_objects as go
 from wordcloud import WordCloud
 
 # your google credentials json file 
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = "amlsp23-d0e3a7e9a9a9.json"
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = "neat-domain-380117-8a0a784e5e42.json"
 
 st.set_page_config(page_title="Sentiment Analyzer", layout="wide")
 
