@@ -5,7 +5,6 @@ import os
 from datetime import datetime
 import plotly.express as px
 import plotly.graph_objects as go
-from wordcloud import WordCloud
 
 # your google credentials json file 
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = "neat-domain-380117-8a0a784e5e42.json"
