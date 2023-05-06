@@ -1,3 +1,10 @@
-google-cloud-storage
-fsspec
-gcsfs
+numpy
+pandas
+scikit-learn
+spacy
+torch
+transformers
+streamlit
+google-cloud-firestore
+matplotlib
+plotly
