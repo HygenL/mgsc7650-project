@@ -1,10 +1,17 @@
 numpy
 pandas
+random
 scikit-learn
 spacy
+spacy-lookups-data
 torch
 transformers
 streamlit
 google-cloud-firestore
 matplotlib
 plotly
+os
+datetime
+time
+sklearn
+
