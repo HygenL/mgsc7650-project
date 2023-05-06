@@ -94,10 +94,9 @@ training_args = TrainingArguments(
  )
 
 # # Load model and tokenizer
-loaded_tokenizer = DistilBertTokenizer.from_pretrained("BERT")
-loaded_model = DistilBertForSequenceClassification.from_pretrained("BERT")
-loaded_trainer = Trainer(model=loaded_model, args=training_args,train_dataset=train_dataset,eval_dataset=test_dataset,
- )
+loaded_tokenizer = DistilBertTokenizer.from_pretrained("distilbert-base-uncased")
+loaded_model = DistilBertForSequenceClassification.from_pretrained("distilbert-base-uncased")
+loaded_trainer = Trainer(model=loaded_model, args=training_args,train_dataset=train_dataset,eval_dataset=test_dataset,)
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "spring-yifan.json"
 db = firestore.Client()
 # getting data from your firestore database - reddit collection
