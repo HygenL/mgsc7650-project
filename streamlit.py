@@ -2,13 +2,12 @@
 import numpy as np
 import pandas as pd
 import random
-from sklearn.model_selection import train_test_split, cross_val_score, GridSearchCV
+from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
 from sklearn.metrics import accuracy_score, confusion_matrix, ConfusionMatrixDisplay, classification_report, f1_score
 from sklearn.pipeline import Pipeline
 import spacy
 from spacy.lang.en.stop_words import STOP_WORDS
-from imblearn.under_sampling import RandomUnderSampler
 import torch
 from transformers import DistilBertTokenizer, DistilBertForSequenceClassification, Trainer, TrainingArguments
 import streamlit as st
@@ -19,7 +18,6 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 import plotly.graph_objects as go
 import time
-from sklearn.model_selection import train_test_split, cross_val_score, GridSearchCV
 from sklearn.svm import LinearSVC
 # Load Data
 seed = 42
